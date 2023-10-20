@@ -1,0 +1,59 @@
+.dashboard-container{
+    display: flex;
+}
+
+.dashboard-content{
+    width: 70%;
+    margin-left: 67px;
+    margin-top: 71px;
+    margin-right: 10px;
+}
+
+.dashboard-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-and-search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search{
+    margin-right: 13.79px;
+    width: 197.6px;
+    height: 32.93px;
+}
+
+.search #search-icon{
+    position: absolute;
+    /* padding: 10px; */
+    left: calc(100% * 0.90);
+    margin-top: 7px;
+    color: #858585;
+    cursor: pointer;
+}
+
+#search{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #858585;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    outline: none;
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+
+#profile-photo{
+    border-radius: 50%;
+    margin-left: 27px;
+}
+
+#bell{
+    color: #000;
+}

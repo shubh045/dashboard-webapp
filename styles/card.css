@@ -1,0 +1,84 @@
+.card-container{
+    display: flex;
+    gap: 17px;
+    margin-top: 36.57px;
+    width: 100%;
+    font-family: Lato;
+}
+
+.card{
+    min-height: 120px;
+    width: 237.32px;
+    background-color: #fff;
+    box-shadow: 3px 4px 11px 0px rgba(98, 98, 98, 0.15);
+    display: flex;
+    flex-direction: column;
+    padding: 18.31px 26.84px;
+    border-radius: 20px;
+    border: 2px solid #e0e0e0;
+}
+
+.card .card-icon{
+    height: 31px;
+    width: 31px;
+    border-radius: 50%;
+    background-color: #7fcd93;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#c-icon{
+    width: 70%;
+    height: 70%;
+    color: #fff;
+}
+
+.card-text, .card-stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-stats{
+    align-items: center;
+}
+
+.card-text{
+    margin-top: 2px;
+    flex-direction: column;
+    gap: 2px;
+    min-height: 44px;
+}
+
+.card-text p{
+    font-family: Lato;
+
+}
+
+#text-head{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.2px;
+}
+
+#amount{
+    font-family: "Open Sans";
+    font-size: 21px;
+    line-height: 28.6px;
+    color: #000;
+}
+
+#percent{
+    font-family: Figtree;
+    font-weight: 600;
+    color: #4ad15f;
+    background-color: #e9f9eb;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 4px 8px;
+    width: 47px;
+    height: 24px;
+    border-radius: 34px;
+}
