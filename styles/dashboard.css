@@ -1,5 +1,6 @@
 .dashboard-container{
     display: flex;
+    margin-right: 43px;
 }
 
 .dashboard-content{
@@ -57,3 +58,66 @@
 #bell{
     color: #000;
 }
+
+.foot-items{
+    display: flex;
+    width: 100%;
+    height: 256px;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 38.67px;
+    margin-bottom: 38.67px;
+}
+
+#profile-card, #donut-chart{
+    height: 100%;
+    width: 50%;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+#profile-card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-icon{
+    width: 76.78px;
+    height: 76.78px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    border: 1px solid #f2f2f2;
+    font-size: 51.19px;
+    color: #999ca0;
+    cursor: pointer;
+}
+
+#add-profile-text{
+    font-size: 16px;
+    font-family: Figtree;
+    font-weight: 600;
+    line-height: 24px;
+    color: #858585;
+    text-align: center;
+}
+
+
+/* Responsive design start */
+
+@media (max-width: 1430px){
+    .foot-items{
+        gap: 30px;
+    }
+
+    #profile-card, #donut-chart{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1400px){
+    
+}
+
+/* Responsive design end */

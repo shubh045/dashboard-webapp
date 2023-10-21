@@ -1,6 +1,6 @@
 .navbar {
   width: 280px;
-  height: 944px;
+  height: 1000px;
   background: linear-gradient(to bottom, #4285f4 100%, #3c83f9 100%);
   border-radius: 20px;
   margin: 40px 43px;
@@ -24,7 +24,7 @@ ul {
   justify-content: space-between;
   padding-left: 50px;
   padding-top: 104px;
-  height: 800px;
+  height: 90%;
 }
 
 .top-items,

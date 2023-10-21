@@ -11,6 +11,8 @@ import { BsTags } from "react-icons/bs";
 import "@styles/dashboard.css";
 import Card from "@components/card/Card";
 import BarChart from "@components/graphs/BarChart";
+import DonutChart from "@components/graphs/DoughnutChart";
+import AddProfile from "@components/addprofile/AddProfile";
 
 const Dashboard = () => {
 
@@ -78,6 +80,10 @@ const Dashboard = () => {
           />
         </div>
         <BarChart />
+        <div className="foot-items">
+          <DonutChart />
+          <AddProfile />
+        </div>
       </div>
 
       {/* <button
