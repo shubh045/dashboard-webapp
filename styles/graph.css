@@ -1,0 +1,50 @@
+.bar-graph{
+    height: 418px;
+    border-radius: 20px;
+    border: 2px solid #e0e0e0;
+    box-shadow: 3px 4px 11px 0px rgba(98, 98, 98, 0.15);
+    width: 100%;
+    padding: 30px 40px;
+    margin-top: 40px;
+}
+
+.circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle1{
+    background-color: #ee8484;
+}
+
+.circle2{
+    background-color: #98D89E;
+}
+
+.legend, .legend1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.legend{
+    gap: 35px;
+    position: absolute;
+    top: 49%;
+    left: 90%;
+    width: 62px;
+}
+
+.legend1{
+    gap: 10px;
+    align-items: center;
+}
+
+.circle+p{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #000;
+}

@@ -3,7 +3,6 @@
 import Navbar from "@components/navbar/Navbar";
 import { useSession, signOut } from "next-auth/react";
 import { redirect } from "next/navigation";
-import {useState, useEffect} from "react";
 import { AiOutlineBell, AiOutlineLike } from "react-icons/ai";
 import { CiSearch } from "react-icons/ci";
 import { PiDownloadLight, PiUsersBold } from "react-icons/pi";
@@ -11,23 +10,9 @@ import { BsTags } from "react-icons/bs";
 
 import "@styles/dashboard.css";
 import Card from "@components/card/Card";
+import BarChart from "@components/graphs/BarChart";
 
 const Dashboard = () => {
-
-  const [data, setData] = useState([]);
-
-  const getData = async () => {
-    let fetchedData = await fetch("https://dummyjson.com/products");
-    fetchedData = await fetchedData.json();
-    // console.log(fetchedData)
-    setData(fetchedData.products);
-  }
-
-  useEffect(() => {
-    getData();
-  },[]);
-
-  // console.log(data)
 
   const session = useSession();
   if (session.status === "unauthenticated") {
@@ -92,6 +77,7 @@ const Dashboard = () => {
             percent="+4.2%"
           />
         </div>
+        <BarChart />
       </div>
 
       {/* <button
