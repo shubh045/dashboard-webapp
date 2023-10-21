@@ -114,10 +114,49 @@
     #profile-card, #donut-chart{
         width: 100%;
     }
+
+    .search #search-icon{
+        left: calc(100vw * 0.88);
+    }
 }
 
 @media (max-width: 1400px){
-    
+    .dashboard-content{
+        margin-left: 30px;
+    }
+
+    .foot-items{
+       gap: 10px;
+    }
+}
+
+@media (max-width: 1310px){
+    .foot-items{
+        flex-direction: column;
+        height: 50%;
+        align-items: center;
+    }
+
+    #profile-card, #donut-chart{
+        height: 100%;
+        width: 80%;
+    }
+
+    .search #search-icon{
+        left: 87%;
+    }
+}
+
+@media (max-width: 1250px){
+    .search #search-icon{
+        left: 85%;
+    }
+}
+
+@media (max-width: 1000px){
+    .search #search-icon{
+        left: 83%;
+    }
 }
 
 /* Responsive design end */

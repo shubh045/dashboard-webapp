@@ -137,4 +137,23 @@
 
 /* Responsive design start */
 
+@media (max-width: 1440px){
+    .doughnut-graph{
+        gap: 30px;
+    }
+
+    .legend{
+        left: 80%;
+        top: 40%;
+    }
+}
+
+@media (max-width: 1310px){
+    .doughnut-graph{
+        justify-content: space-around;
+    }
+}
+
+
+
 /* Responsive design end */
