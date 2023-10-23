@@ -1,3 +1,5 @@
+"use client";
+
 import "@styles/card.css";
 
 const Card = ({icon, text, amount, percent,v}) => {

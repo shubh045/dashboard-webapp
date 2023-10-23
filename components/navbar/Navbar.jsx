@@ -1,3 +1,5 @@
+"use client";
+
 import "@styles/navbar.css";
 import Link from "next/link";
 import { FiPieChart } from "react-icons/fi";

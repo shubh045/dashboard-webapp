@@ -1,3 +1,5 @@
+"use client";
+
 import '@styles/profileform.css';
 import {useState} from 'react';
 import Profile from './Profile';

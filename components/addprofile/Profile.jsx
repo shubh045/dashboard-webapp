@@ -1,3 +1,5 @@
+"use client";
+
 import "@styles/profileform.css";
 
 const Profile = ({ nextTab, isOpen, closeModal, user, setUser, isProfileAdded, setIsProfileAdded }) => {
