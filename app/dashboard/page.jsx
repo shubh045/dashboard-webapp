@@ -14,6 +14,7 @@ import BarChart from "@components/graphs/BarChart";
 import DonutChart from "@components/graphs/DoughnutChart";
 import AddProfile from "@components/addprofile/AddProfile";
 
+
 const Dashboard = () => {
 
   const session = useSession();
@@ -59,6 +60,7 @@ const Dashboard = () => {
             text="Total Revenues"
             amount="$2,129,430"
             percent="+2.5%"
+            v="v"
           />
           <Card
             icon={<BsTags id="c-icon" />}
